@@ -1,2 +1,2 @@
-# TelaDeBloqueio
-Fiz a tela de bloqueio do win 10 (no caso minha tela de bloqueio)
+# Tela de bloqueio
+Interface da minha tela de bloqueio do win 10, simpleszinha.. só bateu a ideia e fiz. Achei bacana e uma boa forma de ganhar mais experiência no meu Front End.
