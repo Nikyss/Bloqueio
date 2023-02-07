@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Rubik:wght@500&family=Sofia+Sans&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url('../imgs/yesblur.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 88vh;
+    padding-bottom: 30px;
+}
+
+.circle-img{
+    background-color: rgb(238, 238, 231);
+    padding: 1px;
+    width: 200px;
+    height: 200px;
+
+    border-radius: 50%;
+}
+
+.name-profile h1{
+    letter-spacing: -1px;
+    font-weight: 10;
+    color: #ebeaea;
+    padding: 25px;
+
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+#profile-img{
+    background-image: url('../imgs/perfil-mimikyu.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 50%;
+}
+
+#input-password{
+    background-color: rgba(0, 0, 0, 0.623);
+    outline: none;
+    padding: 8px;
+    width: 280px;
+
+    color: #ebeaea;
+    border-top: 2px solid rgba(255, 255, 255, 0.801);
+    border-left: 2px solid rgba(255, 255, 255, 0.801);
+    border-right: 2px solid rgba(255, 255, 255, 0.801);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.801);
+}
+
+#input-password:hover{
+    background-color: rgba(0, 0, 0, 0.822);
+
+    border-top: 2px solid rgb(255, 255, 255);
+    border-left: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.inputs::after{
+    content: '➜';
+    right: 535px;
+    top: 436px;
+    width: 35px;
+    height: 31px;
+    cursor: pointer;
+    position: absolute;
+
+    display: flex;
+    color: #ebeaea;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(179, 179, 179, 0.918);
+}
+
+#icon-password{
+    background-image: url('../imgs/hide.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    cursor: pointer;
+    top: 443px;
+    right: 580px;
+    width: 16px;
+    height: 16px;
+}
+
+#icon-password.hide{
+    background-image: url('../imgs/show.png');
+    background-repeat: no-repeat;
+}
+
+.container-items{
+    width: 1350px;
+
+    display: flex;
+    justify-content: flex-end;
+    padding: 4px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+}
+
+#icon-1{
+    background-image: url('../imgs/wifi.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    opacity: 80%;
+    filter: invert(1);
+    transform: scaleX(-1);
+    cursor: pointer;
+
+    width: 20px;
+    height: 20px;
+}
+
+#icon-2{
+    background-image: url('../imgs/facilidadedeacesso.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    opacity: 80%;
+    filter: invert(1);
+    cursor: pointer;
+
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+}
+
+#icon-3{
+    background-image: url('../imgs/ligar-desligar.png');
+    background-repeat: no-repeat;
+    background-size: 109%;
+    opacity: 80%;
+    filter: invert(1);
+    cursor: pointer;
+    
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+/* Minhas Redas Sociais */
+
+.content-redesociais{
+    display: flex;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 100px;
+}
+
+.content-redesociais > a{
+    text-decoration: none;
+    margin: 5px;
+
+    background-color: #ffffff8e;
+    border-radius: 50%;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    -webkit-box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.25); 
+    box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.25);
+}
+
+.content-redesociais > a:hover{
+    background-color: #d3be00;
+    filter: invert(1);
+
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+.content-redesociais #icon1{
+    background-image: url('../imgs/icons-linkedin.png');
+    background-repeat: no-repeat;
+    background-size: 19px;
+    width: 20px;
+    height: 20px;
+}
+
+.content-redesociais #icon2{
+    background-image: url('../imgs/icon-github.png');
+    background-repeat: no-repeat;
+    background-size: 19px;
+    width: 20px;
+    height: 20px;
+}
+
+.content-redesociais #icon3{
+    background-image: url('../imgs/icon-instagram.png');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    width: 20px;
+    height: 20px;
+}
