@@ -62,7 +62,6 @@ body{
     color: #ebeaea;
     border-top: 2px solid rgba(255, 255, 255, 0.801);
     border-left: 2px solid rgba(255, 255, 255, 0.801);
-    border-right: 2px solid rgba(255, 255, 255, 0.801);
     border-bottom: 2px solid rgba(255, 255, 255, 0.801);
 }
 
@@ -71,14 +70,17 @@ body{
 
     border-top: 2px solid rgb(255, 255, 255);
     border-left: 2px solid rgb(255, 255, 255);
-    border-right: 2px solid rgb(255, 255, 255);
     border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.inputs{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .inputs::after{
     content: '➜';
-    right: 535px;
-    top: 436px;
     width: 35px;
     height: 31px;
     cursor: pointer;
@@ -91,6 +93,10 @@ body{
     justify-content: center;
 
     background-color: rgba(179, 179, 179, 0.918);
+
+    border-top: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
 }
 
 #icon-password{
@@ -98,10 +104,10 @@ body{
     background-repeat: no-repeat;
     position: absolute;
     cursor: pointer;
-    top: 443px;
-    right: 580px;
     width: 16px;
     height: 16px;
+
+    padding-left: 50px;
 }
 
 #icon-password.hide{
